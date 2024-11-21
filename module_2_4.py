@@ -3,7 +3,7 @@ primes = []
 not_primes = []
 for i in numbers:
     b = 0
-    for j in range(1, len(numbers) + 1):
+    for j in range(1, i + 1):
         a = i % j
         if a == 0:
             b = b + 1
